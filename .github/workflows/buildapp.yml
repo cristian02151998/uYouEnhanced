@@ -7,8 +7,8 @@ on:
   workflow_dispatch:
     inputs:
       sdk_version:
-        description: "iOS SDK version to be used during build"
-        default: "16.4"
+        description: "17.0.3"
+        default: "17.0.3"
         required: true
         type: string
       uyou_version:
@@ -17,8 +17,8 @@ on:
         required: true
         type: string
       decrypted_youtube_url:
-        description: "The direct URL to the decrypted YouTube ipa"
-        default: ""
+        description: "https://www.dropbox.com/scl/fi/5eizj3vunxgjxvi4ylqqz/com.google.ios.youtube-19.10.5-Decrypted.ipa?rlkey=z330bmqvi8jtw2qdo2znjze33&dl=0"
+        default: "https://www.dropbox.com/scl/fi/5eizj3vunxgjxvi4ylqqz/com.google.ios.youtube-19.10.5-Decrypted.ipa?rlkey=z330bmqvi8jtw2qdo2znjze33&dl=0"
         required: true
         type: string
       bundle_id:
